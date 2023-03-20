@@ -1,0 +1,26 @@
+.chef-img{
+   background-image: url(../images/Chef2.jpg); 
+   background-position: center;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 85vh;
+   z-index: -1;
+}
+.chef-content{
+    position: absolute;
+    margin-top: 430px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: white;
+}
+.chef-info h4{
+text-transform: uppercase;
+}
+.award-text{
+    margin-top: 20px;
+    padding: 15px;
+    font-style: italic;
+    
+}

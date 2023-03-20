@@ -1,0 +1,14 @@
+.aboutUs-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.about-para{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+ .aboutUs-container{
+    flex-direction: column;
+ }
+}

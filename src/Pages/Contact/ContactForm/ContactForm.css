@@ -1,0 +1,54 @@
+.contactform-img{
+    width: 600px;
+    height: 200px;
+}
+.contact-container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.form-para{
+    margin-bottom: 5px;
+}
+.input-form{
+    display: flex;
+}
+.input-form input{
+    padding: 10px;
+    font-size: 1.00em;
+    font-style: italic;
+    width: 20vw;
+}
+.input{
+    padding-right: 10px;
+}
+.subject input{
+    padding: 10px;
+    width: 41vw;
+    font-size: 1.5em;
+}
+.subject{
+    margin-top: 10px;
+}
+.message textarea{
+    padding: 10px;
+    width: 41vw;
+    height: 35vh;
+}
+.message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+.contact-container{
+    flex-direction: column;
+}
+
+.message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input .input{
+    width: 40vw;
+}
+}

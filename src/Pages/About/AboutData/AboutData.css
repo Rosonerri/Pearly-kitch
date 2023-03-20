@@ -1,0 +1,21 @@
+.data-content{
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.data-heading{
+    text-align: center;
+    font-size: 2em;
+}
+@media screen and (max-width: 768px) {
+.data-content{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+.data-heading{
+    font-size: 1.2em;
+}
+.about-data{
+    font-size: 0.7em;
+}
+}

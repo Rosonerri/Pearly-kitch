@@ -1,0 +1,20 @@
+.menu-content{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.text-menu{
+    color: white;
+}
+.menu-heading{
+    font-size: 2em;
+}
+.our-menu{
+  color: white;
+  font-size: 1.5em;  
+}
+.menu{
+    font-size: 1.8em;
+}

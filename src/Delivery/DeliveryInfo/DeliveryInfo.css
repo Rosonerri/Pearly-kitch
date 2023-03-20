@@ -1,0 +1,19 @@
+.bsfill{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.bsfill h3{
+    margin-left: 5px;
+}
+.delivery-content{
+    display: flex;
+    padding: 15px;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .delivery-content{
+        flex-direction: column;
+    }
+}

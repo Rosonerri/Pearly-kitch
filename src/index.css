@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;1,100;1,200;1,300&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --color-primary:#dc143c;
+  --color-secondary:#7c6853;
+  --color-brown:#342f29;
+  --color-white:#fff;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.hero-content{
+  color: var(--color-white);
+  margin-left: 40px;
+}
+.special-word{
+  color: var(--color-primary);
+  font-weight: 900;
+}
+.section{
+  padding: 70px 0;
+}
+.amazing-content h4, p{
+  color: var(--color-secondary);
+}
+.ampersand{
+  font-style: italic;
+  font-family: 'Libre Baskerville', serif;
+  color: #dc143c;
+}
+blockquote{
+  color: var(--color-brown);
+  padding: 5px;
+  font-weight: 600;
+  border-left: 3px solid var(--color-primary);
+}
+span{
+  color: #dc143c;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 0;
+
+}
+.py-md{
+  padding: 50px 30px;
+}
+.text-whitee{
+  color: white;
+}

@@ -1,0 +1,8 @@
+.main-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: var(--color-brown);
+    padding: 15px;
+}
